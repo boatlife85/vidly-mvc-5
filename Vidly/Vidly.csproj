@@ -16,10 +16,12 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
-    <IISExpressSSLPort />
-    <IISExpressAnonymousAuthentication />
-    <IISExpressWindowsAuthentication />
-    <IISExpressUseClassicPipelineMode />
+    <IISExpressSSLPort>44300</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -206,6 +208,14 @@
     <Compile Include="Migrations\201604050707219_Genres.Designer.cs">
       <DependentUpon>201604050707219_Genres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201802080723353_InitializingDBafterBranchingFromFork.cs" />
+    <Compile Include="Migrations\201802080723353_InitializingDBafterBranchingFromFork.Designer.cs">
+      <DependentUpon>201802080723353_InitializingDBafterBranchingFromFork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802080725170_Initialize2.cs" />
+    <Compile Include="Migrations\201802080725170_Initialize2.Designer.cs">
+      <DependentUpon>201802080725170_Initialize2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -327,6 +337,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201604050707219_Genres.resx">
       <DependentUpon>201604050707219_Genres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802080723353_InitializingDBafterBranchingFromFork.resx">
+      <DependentUpon>201802080723353_InitializingDBafterBranchingFromFork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802080725170_Initialize2.resx">
+      <DependentUpon>201802080725170_Initialize2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
