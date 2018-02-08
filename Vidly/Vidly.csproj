@@ -216,6 +216,14 @@
     <Compile Include="Migrations\201802080725170_Initialize2.Designer.cs">
       <DependentUpon>201802080725170_Initialize2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201802081556241_AddedCustomerData.cs" />
+    <Compile Include="Migrations\201802081556241_AddedCustomerData.Designer.cs">
+      <DependentUpon>201802081556241_AddedCustomerData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802081613596_AddedMovieData.cs" />
+    <Compile Include="Migrations\201802081613596_AddedMovieData.Designer.cs">
+      <DependentUpon>201802081613596_AddedMovieData.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -343,6 +351,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201802080725170_Initialize2.resx">
       <DependentUpon>201802080725170_Initialize2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802081556241_AddedCustomerData.resx">
+      <DependentUpon>201802081556241_AddedCustomerData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802081613596_AddedMovieData.resx">
+      <DependentUpon>201802081613596_AddedMovieData.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
