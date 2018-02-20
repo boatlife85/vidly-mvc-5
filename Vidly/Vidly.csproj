@@ -245,6 +245,10 @@
     <Compile Include="Migrations\201802081613596_AddedMovieData.Designer.cs">
       <DependentUpon>201802081613596_AddedMovieData.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201802201437030_SeedUsers.cs" />
+    <Compile Include="Migrations\201802201437030_SeedUsers.Designer.cs">
+      <DependentUpon>201802201437030_SeedUsers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -499,7 +503,8 @@
     <Content Include="Views\Movies\Details.cshtml" />
     <Content Include="Views\Customers\CustomerForm.cshtml" />
     <Content Include="Views\Movies\CustomerForm.cshtml" />
-    <None Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Movies\ReadOnlyList.cshtml" />
+    <None Include="Views\Movies\List.cshtml" />
     <Content Include="Views\Movies\MovieForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -554,6 +559,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201802081613596_AddedMovieData.resx">
       <DependentUpon>201802081613596_AddedMovieData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802201437030_SeedUsers.resx">
+      <DependentUpon>201802201437030_SeedUsers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
